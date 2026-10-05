@@ -1,5 +1,5 @@
-"""VideoEditor-Pro package."""
+from videoeditor.app import main
 
-from .app import main
 
-__all__ = ["main"]
+if __name__ == "__main__":
+    main()
